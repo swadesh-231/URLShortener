@@ -30,5 +30,5 @@ public class UrlMapping {
     private User  user;
 
     @OneToMany(mappedBy = "urlMapping")
-    private List<ClickEvent> clickEvents;
+    private List<Click> clicks;
 }

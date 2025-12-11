@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class ClickEvent {
+public class Click {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
